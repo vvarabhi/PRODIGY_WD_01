@@ -8,9 +8,9 @@ header {
     transition: all 0.3s ease;
 }
 body{
-  background: #0f0c29;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0f0c29; 
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
 
 }
 nav {
@@ -293,16 +293,16 @@ ul{
   line-height: 1.6;
 }
 .about-image img {
-  width: 100%; /* Adjust the width as needed */
+  width: 100%; 
   max-width: 400px;
-  margin-bottom: 100px; /* Set a maximum width if necessary */
-  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 100px;
+  height: auto;
   filter: drop-shadow(20px 7px 5px rgb(189, 63, 189));
 }
 .container1 .about-content {
   flex-grow: 1;
   margin-left: 20px;
-  margin-top: 70px; /* Adjust margin as needed */
+  margin-top: 70px;
 }
 
 #Contact {
@@ -343,5 +343,5 @@ ul{
 }
 #Contact .contat-detail {
   margin-left:200px;
-  position: 20px; /* Adjust margin as needed */
+  position: 20px; 
 }
